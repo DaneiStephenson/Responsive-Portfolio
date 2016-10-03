@@ -213,3 +213,11 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+.imageSize {
+	color: #777777;
+	width: 60px;
+	height: 60px;
+	padding: 3px;
+
+}

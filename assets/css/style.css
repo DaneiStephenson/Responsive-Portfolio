@@ -65,7 +65,7 @@ h3 {
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
-	line-height: 90px;
+	line-height: 40px;
 	color: #fff;
 	font-weight: 700;
 	font-size: 30px;
@@ -192,6 +192,185 @@ h3,
 img {
 	width: 150px;
 	height: 150px;
+}
+
+
+
+
+.wrapper {
+	max-width: 80%;
+	clear:both;
+}
+
+
+.headerContent {
+	color: pink;
+	float: right;
+	padding: 10px;
+
+
+}
+
+.yourName {
+	color: #777777;
+	position: absolute;
+	background: #eee;
+	padding: 43px;
+	text-align: center;
+	margin: 0;
+	top: 0px;
+	left: 100px;
+
+
+}
+.placeHolder {
+	
+background: pink;
+color: white;
+	
+	position: absolute;
+	
+	padding: 11px;
+	text-align: center;
+	margin: 0;
+	top: 250px;
+	left: 20px;
+	width:178px;
+
+}
+
+.placeHolderHover:hover{
+	background: #ff99cc;
+
+}
+
+
+.placeHolder2 {
+		color: white;
+	position: absolute;
+	background: pink;
+	padding: 11px;
+	text-align: center;
+	margin: 0;
+	top: 248px;
+	left: 250px;
+	width:178px;
+
+}
+
+.placeHolder3 {
+		color: white;
+	position: absolute;
+	background: pink;
+	padding: 11px;
+	text-align: center;
+	margin: 0;
+	top:408px;
+	left: 20px;
+	width:178px;
+
+}
+.placeHolder4 {
+		color: white;
+	position: absolute;
+	background: pink;
+	padding: 11px;
+	text-align: center;
+	margin: 0;
+	top: 408px;
+	left: 250px;
+	width:178px;
+
+}
+
+.placeHolder5 {
+		color: white;
+	position: absolute;
+	background: pink;
+	padding: 11px;
+	text-align: center;
+	margin: 0;
+	top: 570px;
+	left:20px;
+	width:178px;
+
+}
+
+.placeHolder6 {
+		color: white;
+	position: absolute;
+	background: pink;
+	padding: 11px;
+	text-align: center;
+	margin: 0;
+	top: 570px;
+	left: 250px;
+	width:178px;
+
+}
+
+
+
+
+
+
+.imageSize {
+	color: #777777;
+	width: 60px;
+	height: 60px;
+	padding: 3px;
+
+}
+
+img {
+	
+	float:left;
+}
+
+
+.imageTd {
+	width: 200px;
+	height: 130px;
+	padding: 15px;
+}
+
+.aboutMe{
+	color: #777777;
+	float: left;
+	background-color: #ffffff;
+	border:  solid 5px #666666 ;
+	/*width: 550px;*/
+	height: 600px;
+	/*padding: 50px;*/
+	/*margin: 20px -50px 20px 90px;*/
+width: 600px;
+
+	
+}
+
+.content{
+	color: #777777;
+	
+		overflow: auto;
+		
+}
+
+
+
+.connectWithMe{
+	
+
+
+		color: #777777;
+    float: right;
+    padding: 15px;
+    margin: -615px -0px 60px 60px;
+    position: static;
+    width: 150px;
+    height: 150px;
+    background: #ffffff;
+    clear:both;
+
 }
 /*contact page*/
 

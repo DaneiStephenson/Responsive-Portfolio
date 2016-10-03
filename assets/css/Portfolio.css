@@ -16,21 +16,33 @@ h1 {
 	font-size: 24px
 }
  
+#masthead {
+	background: #fff;
+	margin: 0 0 30px;
+	z-index: 99;
+	color: #fff;
+	overflow: auto;
+	border-bottom: 2px solid #ccc;
+	position: fixed;
+	width: 100%;
+}
 
-header {
-	color: pink;
+#logo {
+	width: 250px;
+	height: 90px;
+	background: pink;
+	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	background: #ffffff;
-	padding: 51px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+	text-decoration: none;
+}
+	
 
-	
-	
-	border: #cccccc;
 
-	max-width: 100%;
-	
-
-	
 }
 .wrapper {
 	max-width: 80%;
@@ -46,10 +58,27 @@ header {
 
 }
 
+nav {
+	float: right;
+	margin-top: 25px;
+}
+nav a {
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 15px;
+	line-height: 18px;
+}
+nav a:first-child {
+	border-left: 0 none;
+}
+
 .yourName {
-	color: #777777;
+	color: pink;
 	position: absolute;
-	background: #eee;
+	
 	padding: 43px;
 	text-align: center;
 	margin: 0;
@@ -68,9 +97,9 @@ color: white;
 	padding: 11px;
 	text-align: center;
 	margin: 0;
-	top: 250px;
-	left: 20px;
-	width:178px;
+	top: 410px;
+	left: 96px;
+	width:195px;
 
 }
 
@@ -87,9 +116,9 @@ color: white;
 	padding: 11px;
 	text-align: center;
 	margin: 0;
-	top: 248px;
-	left: 250px;
-	width:178px;
+	top: 410px;
+	left: 321px;
+	width:195px;
 
 }
 
@@ -100,9 +129,9 @@ color: white;
 	padding: 11px;
 	text-align: center;
 	margin: 0;
-	top:408px;
-	left: 20px;
-	width:178px;
+	top:857px;
+	left: 96px;
+	width:195px;
 
 }
 .placeHolder4 {
@@ -112,9 +141,9 @@ color: white;
 	padding: 11px;
 	text-align: center;
 	margin: 0;
-	top: 408px;
-	left: 250px;
-	width:178px;
+	top: 857px;
+	left: 321px;
+	width:195px;
 
 }
 
@@ -125,9 +154,9 @@ color: white;
 	padding: 11px;
 	text-align: center;
 	margin: 0;
-	top: 570px;
-	left:20px;
-	width:178px;
+	top: 635px;
+	left:96px;
+	width:195px;
 
 }
 
@@ -138,9 +167,9 @@ color: white;
 	padding: 11px;
 	text-align: center;
 	margin: 0;
-	top: 570px;
-	left: 250px;
-	width:178px;
+	top: 635px;
+	left: 321px;
+	width:195px;
 
 }
 
@@ -151,8 +180,9 @@ color: white;
 
 .imageSize {
 	color: #777777;
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
+	padding: 3px;
 
 }
 
@@ -163,8 +193,8 @@ img {
 
 
 .imageTd {
-	width: 200px;
-	height: 130px;
+	width: 225px;
+	height: 225px;
 	padding: 15px;
 }
 
