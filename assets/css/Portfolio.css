@@ -266,9 +266,37 @@ border: pink 2px solid;
 	
 }
 
-@media screen and  (max-width: 640px){
-	header {
-		position: static;
+@media screen and (width: 640px){
+	
+	 footer {
+	 	width: 100%;
+	 }
+	 #logo {
+	 	width: 640px;
+	 }
+
+	p {
+	
+		overflow: auto;
+		clear:both;
+
+		
+	}
+	 .sidebar {
+		
+		max-width: 100%;
+		float: left;
+	}
+
+	nav  {
+
+		text-align: center;
+		width: 640px;
+	}
+
+	img {
+		width: 550px;
+		height:550px;
 	}
 	
 }
