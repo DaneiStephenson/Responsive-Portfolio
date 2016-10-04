@@ -419,8 +419,37 @@ input[type=submit] {
 
 	
 }
-@media screen and  (max-width: 768px) {
+@media screen and  (width: 768px) {
+
+	footer {
+	 	width: 100%;
+	 }
+	 
+
+	p {
 	
+		overflow: auto;
+		clear:both;
+
+		
+	}
+	 .sidebar {
+		
+		max-width: 100%;
+		float: left;
+	}
+
+	
+
+	img {
+		width: 290px;
+		height:290px;
+	}
+	
+	.photoSize {
+		width: 200px;
+		height: 200px;
+	}
 	
 }
 @media screen and (width: 640px){
