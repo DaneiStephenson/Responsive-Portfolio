@@ -245,6 +245,7 @@ input[type=submit] {
 	
 		overflow: auto;
 		clear:both;
+		font-size: 30px;
 
 		
 	}
@@ -255,7 +256,8 @@ input[type=submit] {
 	}
 
 	
-
+	
+	
 	img {
 		width: 290px;
 		height:290px;
