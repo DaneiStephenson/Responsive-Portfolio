@@ -106,7 +106,7 @@ footer {
 .sidebar {
 	background: #fff;
 	padding: 30px;
-	width: 100%;
+	
 	max-width: 270px;
 	float: right;
 	border: 1px solid #ddd;
@@ -430,6 +430,10 @@ html, body {
     height: 142px; 
 }
 @media screen and  (width: 980px) {
+	.sidebar {
+		float: left;
+		margin-left: 20px;
+	}
 	
 .work {
 
@@ -452,7 +456,14 @@ img {
 		padding: 20px;
 		width: 350px;
 }
+
+.mix {
+	
+	margin: 0 auto;
+	width: 800px;
 }
+}
+/*  */
 @media screen and  (width: 768px) {
 
 	footer {
